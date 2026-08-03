@@ -21,6 +21,25 @@
   color: #0a0a12 !important;
   transform: translateY(-3px) scale(1.05);
 }
+
+.code-btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(240,192,64,.4);
+  background: rgba(240,192,64,.08);
+}
+
+.code-btn:hover {
+  background: var(--gold);
+  color: #0a0a12 !important;
+  transform: translateY(-3px) scale(1.05);
+}
+
+.thumb-img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  position: relative; z-index: 1;
+}
     :root {
       --gold: #f0c040;
       --gold-light: #ffe07a;
@@ -626,17 +645,17 @@
             <div class="col-4"><div class="about-stat"><div class="num" data-count="2">0</div><div class="label">Internships</div></div></div>
           </div>
           <p style="color:var(--text-muted);line-height:1.9;margin-bottom:20px">
-            I'm a dedicated developer and designer with a passion for crafting elegant solutions to complex problems. My journey in tech started with curiosity and has grown into a full-blown passion for building products people love.
+            I did my BCA (AIML) from Galgotias University and I'm currently pursuing MCA (Core) at the same place. My journey in tech started with curiosity around AI/ML and has grown into building full-stack products end-to-end.
           </p>
           <p style="color:var(--text-muted);line-height:1.9">
-            When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sketching out my next big idea. I believe great products are born at the intersection of technology, design, and empathy.
+            My core skills are AI/ML, Full Stack Development, SQL, and Python. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sketching out my next big idea.
           </p>
           <div class="row mt-4 g-3">
             <div class="col-sm-6">
               <div style="color:var(--text-muted);font-size:.875rem"><span style="color:var(--gold)">📍</span> <strong style="color:var(--text)">Location:</strong> Greater Noida, India</div>
             </div>
             <div class="col-sm-6">
-              <div style="color:var(--text-muted);font-size:.875rem"><span style="color:var(--gold)">🎂</span> <strong style="color:var(--text)">Degree:</strong> BCA / MCA</div>
+              <div style="color:var(--text-muted);font-size:.875rem"><span style="color:var(--gold)">🎓</span> <strong style="color:var(--text)">Degree:</strong> BCA(AIML) / MCA(Core)</div>
             </div>
             <div class="col-sm-6">
               <div style="color:var(--text-muted);font-size:.875rem"><span style="color:var(--gold)">📧</span> <strong style="color:var(--text)">Email:</strong> rahulmaurya2648@gmail.com</div>
@@ -693,15 +712,15 @@
             <div class="edu-degree">BCA(AIML) / MCA(Core)</div>
             <div class="edu-school"><i class="fas fa-university me-2" style="color:var(--teal)"></i>Galgotias University</div>
             <p style="color:var(--text-muted);font-size:.875rem;margin-top:10px">Focused on full-stack development, data structures, algorithms, and database management. Active member of the coding club and tech fest organizer.</p>
-            <div class="edu-grade">GPA: 8.5 / 10</div>
+            <div class="edu-grade">🎯 Focus: AI & Full Stack Development</div>
           </div>
           <div class="edu-item" style="transition-delay:.15s">
             <div class="edu-dot"></div>
             <div class="edu-year">2021 – 2022</div>
-            <div class="edu-degree">Senior Secondary (12th) — Commerece with Maths</div>
+            <div class="edu-degree">Senior Secondary (12th) </div>
             <div class="edu-school"><i class="fas fa-school me-2" style="color:var(--teal)"></i>Aggarwal Public School Sector-3, Faridabad, Haryana</div>
             <p style="color:var(--text-muted);font-size:.875rem;margin-top:10px">Specialized in Accountancy, Business Studies, Economics and Mathematics. Developed a keen interest in Computer Science during this period.</p>
-            <div class="edu-grade">Percentage: 56%</div>
+            <div class="edu-grade">📚 Commerce with Mathematics</div>
           </div>
           <div class="edu-item" style="transition-delay:.3s">
             <div class="edu-dot"></div>
@@ -709,7 +728,7 @@
             <div class="edu-degree">Secondary (10th)</div>
             <div class="edu-school"><i class="fas fa-school me-2" style="color:var(--teal)"></i>Aggarwal Public School Sector-3, Faridabad, Haryana</div>
             <p style="color:var(--text-muted);font-size:.875rem;margin-top:10px">Built a strong foundation in core subjects Maths, Science, Social Studies.</p>
-            <div class="edu-grade">Percentage: 69%</div>
+            <div class="edu-grade">🏫 Strong Foundation in Science & Mathematics</div>
           </div>
         </div>
       </div>
@@ -843,36 +862,32 @@
     <div class="row g-4">
       <div class="col-md-6 col-lg-4">
         <div class="project-card">
-          <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"><span class="thumb-emoji">🛒</span></div>
+          <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"><img class="thumb-img" src="images/giftandgrid.png" alt="E-Commerce Platform"/></div>
           <div class="project-body">
             <h5 class="mb-2">E-Commerce Platform</h5>
-            <p style="color:var(--text-muted);font-size:.875rem">Full-stack shopping app with cart, payments, and real-time inventory management.</p>
-            <div class="project-tags"><span class="project-tag">React</span><span class="project-tag">Node.js</span><span class="project-tag">MongoDB</span></div>
+            <p style="color:var(--text-muted);font-size:.875rem">Full-stack MERN shopping app with cart, payments, and real-time inventory management.</p>
+            <div class="project-tags"><span class="project-tag">Full Stack</span><span class="project-tag">MERN</span><span class="project-tag">Node.js</span><span class="project-tag">MongoDB</span></div>
             <div class="project-links">
-              <div class="project-links">
-  <a href="https://github.com/rahul-maurya/project" class="proj-link github-btn" target="_blank">
-    <i class="fab fa-github"></i> Code
-  </a>
-
-  <a href="https://your-live-site.com" class="proj-link live-btn" target="_blank">
-    <i class="fas fa-external-link-alt"></i> Live Demo
-  </a>
-</div>
-             
+              <a href="https://github.com/rahul2648/giftandgrid" class="proj-link code-btn" target="_blank">
+                <i class="fab fa-github"></i> Code
+              </a>
+              <a href="https://github.com/rahul2648/giftandgrid" class="proj-link live-btn" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="project-card" style="transition-delay:.1s">
-          <div class="project-thumb" style="background:linear-gradient(135deg,#0d2137,#1a3a4a)"><span class="thumb-emoji">🤖</span></div>
+          <div class="project-thumb" style="background:linear-gradient(135deg,#0d2137,#1a3a4a)"><img class="thumb-img" src="images/ai-copilot.png" alt="AI Chat Copilot"/></div>
           <div class="project-body">
-            <h5 class="mb-2">AI Chat Assistant</h5>
-            <p style="color:var(--text-muted);font-size:.875rem">Intelligent chatbot powered by NLP with context-aware conversations and multi-turn memory.</p>
+            <h5 class="mb-2">AI Chat Copilot</h5>
+            <p style="color:var(--text-muted);font-size:.875rem">Engineering student workspace with AI Mentor, Coding Assistant, Resume Analyzer, AI Interview prep, and Smart Learning — all in one dashboard.</p>
             <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">FastAPI</span><span class="project-tag">LLM</span></div>
             <div class="project-links">
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fab fa-github"></i> Code</a>
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+              <a href="https://github.com/rahul2648/ENGINEERING-CAPILOT" class="proj-link code-btn" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="https://github.com/rahul2648/ENGINEERING-CAPILOT" class="proj-link live-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
             </div>
           </div>
         </div>
@@ -885,51 +900,50 @@
             <p style="color:var(--text-muted);font-size:.875rem">Interactive business intelligence dashboard with real-time data visualization, insightful reports, and dynamic filtering for better decision-making.</p>
             <div class="project-tags"><span class="project-tag">PowerBI</span><span class="project-tag">DAX</span><span class="project-tag">Data Visualization</span></div>
             <div class="project-links">
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fab fa-github"></i> Code</a>
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fas fa-external-link-alt"></i> Live</a>
+              <a class="proj-link code-btn" style="opacity:.5;pointer-events:none;cursor:not-allowed"><i class="fab fa-github"></i> Code</a>
+              <a class="proj-link live-btn" style="opacity:.5;pointer-events:none;cursor:not-allowed"><i class="fas fa-external-link-alt"></i> Live</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="project-card" style="transition-delay:.1s">
-          <div class="project-thumb" style="background:linear-gradient(135deg,#2e1a2e,#3a1a2a)"><span class="thumb-emoji">📱</span></div>
+          <div class="project-thumb" style="background:linear-gradient(135deg,#2e1a2e,#3a1a2a)"><img class="thumb-img" src="images/quiz-app.png" alt="Quiz App"/></div>
           <div class="project-body">
             <h5 class="mb-2">Quiz App</h5>
             <p style="color:var(--text-muted);font-size:.875rem">Feature-rich quiz application with multiple-choice questions, 50-50 lifeline, score tracking, timer-based quizzes, and instant result system.</p>
-            <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span></div>
+            <div class="project-tags"><span class="project-tag">Java</span><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JDK</span></div>
             <div class="project-links">
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fab fa-github"></i> Code</a>
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fas fa-external-link-alt"></i> Live</a>
-
+              <a href="https://github.com/rahul2648/QuizApp" class="proj-link code-btn" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="https://github.com/rahul2648/QuizApp" class="proj-link live-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="project-card" style="transition-delay:.2s">
-          <div class="project-thumb" style="background:linear-gradient(135deg,#2e2a1a,#3a3012)"><span class="thumb-emoji">🏥</span></div>
+          <div class="project-thumb" style="background:linear-gradient(135deg,#2e2a1a,#3a3012)"><img class="thumb-img" src="images/house-price.png" alt="House Price Prediction"/></div>
           <div class="project-body">
-            <h5 class="mb-2">Healthcare Portal</h5>
-            <p style="color:var(--text-muted);font-size:.875rem">Doctor-patient appointment system with video consultations and EHR management.</p>
-            <div class="project-tags"><span class="project-tag">Django</span><span class="project-tag">PostgreSQL</span><span class="project-tag">WebRTC</span></div>
+            <h5 class="mb-2">House Price Prediction</h5>
+            <p style="color:var(--text-muted);font-size:.875rem">ML app that predicts house prices using Linear Regression and Random Forest models.</p>
+            <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Flask</span><span class="project-tag">Scikit-learn</span><span class="project-tag">Linear Regression</span></div>
             <div class="project-links">
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fab fa-github"></i> Code</a>
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+              <a href="https://github.com/rahul2648/house-price-prediction" class="proj-link code-btn" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="https://house-ptrediction-price.onrender.com/" class="proj-link live-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="project-card" style="transition-delay:.3s">
-          <div class="project-thumb" style="background:linear-gradient(135deg,#1a2a2e,#12283a)"><span class="thumb-emoji">🎮</span></div>
+          <div class="project-thumb" style="background:linear-gradient(135deg,#1a2a2e,#12283a)"><img class="thumb-img" src="images/face-recognition.png" alt="Face Recognition System"/></div>
           <div class="project-body">
-            <h5 class="mb-2">Multiplayer Game</h5>
-            <p style="color:var(--text-muted);font-size:.875rem">Browser-based real-time multiplayer puzzle game with global leaderboard and rooms.</p>
-            <div class="project-tags"><span class="project-tag">Phaser.js</span><span class="project-tag">Socket.io</span><span class="project-tag">Redis</span></div>
+            <h5 class="mb-2">Face Recognition System</h5>
+            <p style="color:var(--text-muted);font-size:.875rem">Smart attendance system that recognizes faces in real time and logs student present/absent records to a database.</p>
+            <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">OpenCV</span><span class="project-tag">NumPy</span><span class="project-tag">Dlib</span><span class="project-tag">Machine Learning</span></div>
             <div class="project-links">
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fab fa-github"></i> Code</a>
-              <a href="https://github.com/rahul2648" class="proj-link"><i class="fas fa-external-link-alt"></i> Play</a>
+              <a href="https://github.com/rahul2648/face-recognition-system" class="proj-link code-btn" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="https://face-recognition-project-production.up.railway.app/" class="proj-link live-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
             </div>
           </div>
         </div>
@@ -975,24 +989,25 @@
           <div class="row g-3">
             <div class="col-sm-6">
               <label class="form-label">Full Name *</label>
-              <input type="text" class="form-control" placeholder="Rahul Maurya"/>
+              <input type="text" id="cf-name" name="name" class="form-control" placeholder="Rahul Maurya"/>
             </div>
             <div class="col-sm-6">
               <label class="form-label">Email Address *</label>
-              <input type="email" class="form-control" placeholder="rahul@example.com"/>
+              <input type="email" id="cf-email" name="email" class="form-control" placeholder="rahul@example.com"/>
             </div>
             <div class="col-sm-6">
               <label class="form-label">Phone (Optional)</label>
-              <input type="tel" class="form-control" placeholder="+91 xxxxx xxxxx  "/>
+              <input type="tel" id="cf-phone" name="phone" class="form-control" placeholder="+91 xxxxx xxxxx  "/>
             </div>
             <div class="col-sm-6">
               <label class="form-label">Subject *</label>
-              <input type="text" class="form-control" placeholder="Project Inquiry"/>
+              <input type="text" id="cf-subject" name="subject" class="form-control" placeholder="Project Inquiry"/>
             </div>
             <div class="col-12">
               <label class="form-label">Message *</label>
-              <textarea class="form-control" rows="5" placeholder="Tell me about your project or idea..."></textarea>
+              <textarea id="cf-message" name="message" class="form-control" rows="5" placeholder="Tell me about your project or idea..."></textarea>
             </div>
+            <div class="col-12" id="cf-error" style="display:none;color:#e94560;font-size:.85rem"></div>
             <div class="col-12">
               <button id="sendBtn" class="hero-btn btn-gold w-100 justify-content-center" style="animation:none;font-size:.95rem;cursor:pointer;border:none">
                 <i class="fas fa-paper-plane" id="sendIcon"></i>
@@ -1084,7 +1099,7 @@
     //{ name:'MongoDB',  icon:'🍃', pct:75, delay:300 },-->
     { name:'MySQL',    icon:'🗄️', pct:78, delay:350 },
     { name:'C & C++(OOPs)',icon:'C/C++',pct:88, delay:400 },
-    { name:'Bootstrap',icon:'🅱️', pct:92, delay:450 },
+    { name:'Full Stack',icon:'🧩', pct:90, delay:450 },
     //{ name:'JAVA',    icon:'☕', pct:72, delay:500 },,-->
     { name:'AWS',      icon:'☁️', pct:65, delay:550 },
   ];
@@ -1154,22 +1169,65 @@
   });
   backTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
 
-  /* ── SEND BUTTON ANIMATION ── */
-  document.getElementById('sendBtn').addEventListener('click', function(){
+  /* ── CONTACT FORM — SENDS TO YOUR EMAIL VIA FORMSPREE (no secret key exposed) ── */
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/xeeyykqw"; // <-- your real Formspree form ID
+
+  document.getElementById('sendBtn').addEventListener('click', async function(){
     const icon = document.getElementById('sendIcon');
     const text = document.getElementById('sendText');
+    const errBox = document.getElementById('cf-error');
+    errBox.style.display = 'none';
+
+    const name    = document.getElementById('cf-name').value.trim();
+    const email   = document.getElementById('cf-email').value.trim();
+    const phone   = document.getElementById('cf-phone').value.trim();
+    const subject = document.getElementById('cf-subject').value.trim();
+    const message = document.getElementById('cf-message').value.trim();
+
+    if(!name || !email || !subject || !message){
+      errBox.textContent = 'Please fill all required fields (*).';
+      errBox.style.display = 'block';
+      return;
+    }
+
     icon.className = 'fas fa-spinner fa-spin';
     text.textContent = 'Sending...';
-    setTimeout(()=>{
+    this.disabled = true;
+
+    try {
+      const fd = new FormData();
+      fd.append('name', name);
+      fd.append('email', email);
+      fd.append('phone', phone);
+      fd.append('subject', subject);
+      fd.append('message', message);
+      const res = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: fd
+      });
+      if(!res.ok) throw new Error('Request failed');
       icon.className = 'fas fa-check';
       text.textContent = 'Message Sent!';
       this.style.background = 'linear-gradient(135deg,#00d4b4,#00a896)';
+      document.getElementById('cf-name').value = '';
+      document.getElementById('cf-email').value = '';
+      document.getElementById('cf-phone').value = '';
+      document.getElementById('cf-subject').value = '';
+      document.getElementById('cf-message').value = '';
+    } catch(err){
+      icon.className = 'fas fa-exclamation-triangle';
+      text.textContent = 'Failed — try again';
+      errBox.textContent = 'Something went wrong. Please email me directly at rahulmaurya2648@gmail.com.';
+      errBox.style.display = 'block';
+    } finally {
+      this.disabled = false;
       setTimeout(()=>{
         icon.className = 'fas fa-paper-plane';
         text.textContent = 'Send Message';
         this.style.background = '';
       }, 3000);
-    }, 1800);
+    }
   });
 
   /* ── ACTIVE NAV LINK ON SCROLL ── */
